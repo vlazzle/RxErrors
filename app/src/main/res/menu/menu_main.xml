@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.github.vlazzle.rxerrors.MainActivity">
+
+    <item
+            android:id="@+id/action_error_next"
+            android:title="error next"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/action_error_now"
+            android:title="error now"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/action_finish"
+            android:title="finish"
+            app:showAsAction="ifRoom"/>
+
+</menu>
